@@ -110,17 +110,18 @@ display: flex;
     font-size: 21px;
 }
 .product_bottom{
-    width: 36%;
-    height: 13%;
-    margin: auto;
+    width: 100px;
+    height: 40px;
+    margin: 10px auto auto;
     display: flex
 ;
+    text-align: center;
     align-items: center;
     border: 1px solid;
-    margin-top: 10px;
+    justify-content: center;
     border-radius: 10px;
     text-align: center;
-    padding-left: 31px;
+    /* padding-left: 31px; */
     transition: 1s;
 }
 .product_bottom:hover{
